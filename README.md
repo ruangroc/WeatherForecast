@@ -1,7 +1,4 @@
-# Assignment 3
-
-**Assignment due at 11:59pm on Monday, 2/15/2021**<br>
-**Grading demo due by 11:59pm on Monday 3/8/2021**
+# Assignment 3 Requirements
 
 The primary goal of this assignment is to practice fetching data from an HTTP API and using Emotion to style the components of an app.  Specifically, you'll use the [OpenWeather API](https://openweathermap.org/api) create a simple weather app that can display a daily forecast for a city specified by the user.  The assignment is broken down into parts below.
 
@@ -51,17 +48,3 @@ If you'd like a little extra challenge, try to use the geo coordinates returned 
 
 For extra credit, you can add functionality to your application to allow the user to switch between a "light" theme and a "dark" theme.  This will involve writing styles for both themes and then adding a button or some other interactive mechanism (which should have polished styling) in the navbar or elsewhere in the app that toggles between the themes.  To make it easier to propagate theme changes across all the app's components, you can use [React's context functionality](https://reactjs.org/docs/context.html).  Use [the `useContext()` hook](https://reactjs.org/docs/hooks-reference.html#usecontext) to incorporate context into function components.
 
-## Assignment submission
-
-We'll be using GitHub Classroom for this assignment, and you will submit your assignment via GitHub.  Just make sure your completed files are committed and pushed by the assignment's deadline to the master branch of the GitHub repo that was created for you by GitHub Classroom.  A good way to check whether your files are safely submitted is to look at the master branch your assignment repo on the github.com website (i.e. https://github.com/osu-cs499-w21/assignment-3-YourGitHubUsername/). If your changes show up there, you can consider your files submitted.
-
-## Assignment grading
-
-This assignment is worth 10 points total.  You can also earn 1 point of extra credit as described above.
-
-Remember that in this course, programming assignments will be graded based on effort instead of correctness, and you will get full credit for an assignment if it is submitted on time and is clearly the product of a determined effort to solve the problem.  Again, If you’re unable to solve the homework problem, make sure to submit all code you’ve written, and then describe in comments in the source code the following three things:
-  1. How you attempted to solve the problem.
-  2. Where you ran into trouble.
-  3. What options you think (conceptually) might lead to a working solution.
-
-Note, however, that to earn extra credit for the assignment, the extra credit features must work correctly.  In other words, the extra credit will be graded based on correctness, not just effort.
